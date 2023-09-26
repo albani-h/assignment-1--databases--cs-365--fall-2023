@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+:root,
+:root::before,
+student {
+  display: block;
+  margin: 0 0 30px;
+}
+
+:root {
+  width: 1100px;
+  margin: auto;
+}
+
+:root::before {
+  content: 'Student Database';
+  text-align: center;
+  font: 200 32px Inter, serif;
+}
+
+contact-information::before {
+  content: 'Contact Information';
+  display: block;
+  font: 300 15px Inter, serif;
+
+}
+
+contact-information {
+  font-size: 17px;
+}
+
+student-identification::before {
+  content: ''attr(number);
+}
+
+middle-name,
+last-name,
+preferred-name {
+  display: inline-block;
+  font: 400 20px Inter, serif;
+}
+
+student::before {
+  content: ''attr(name);
+  font: 400 20px Inter, serif;
+}
+
+graduation-date::before {
+  content: 'Date of Graduation';
+  display: block;
+  font: 300 15px Inter, serif;
+}
+
+student-enrollment {
+  display: block;
+  font-size: 17px;
+}
+
+student-enrollment::before {
+  content: 'Academic Information';
+  display: block;
+  font: 300 15px Inter, serif;
+}
+
+major::before {
+  content: ' Major: ';
+}
+
+minor::before {
+  content: '  Minor: ';
+}
+
+email::before {
+  content: 'Email: ';
+}
+
+email::after {
+  content: '   | ';
+}
+
+advisor::before {
+  content: 'Advisor: ';
+}
+
+gpa::before {
+  content: 'Grade Point Average: ';
+}
+
+phone-number::before {
+  content: 'Phone Number: ';
+}
+
+date::before {
+  content: 'Date of Enrollment';
+  display: block;
+  font: 300 15px Inter, serif;
+}
+
+major,
+email {
+  display: inline-block;
+  margin: 10px;
+}
