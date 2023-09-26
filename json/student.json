@@ -1,0 +1,116 @@
+{
+  "student-database":[{
+    "student": [{
+      "name":"Gordon",
+      "middle-name": "Matthew",
+      "last-name": "Sumner",
+      "preferred-name":"Sting",
+      "student-identification": {
+        "number": "1234567"
+      },
+      "contact-information": {
+        "email": "sting@thepolice.com",
+        "phone-number": "212.123.4567"
+      },
+      "student-enrollment": {
+        "full-time":{
+          "major":"music",
+          "minor":"english",
+          "gpa":"4.0",
+          "advisor":"Andy Summers",
+          "year":"first-year",
+          "date":"08-25-1969",
+          "graduation-date":"05-01-1973"
+        }
+      }
+   },
+   {
+      "name": "Kim",
+      "middle-name":"",
+      "last-name":"Thayil",
+      "preferred-name":"",
+      "student-identification":{
+        "number": "4567890"
+      },
+      "contact-information":{
+        "email":"kim@soundgarden.com",
+        "phone-number":"206.123.4567"
+      },
+      "student-enrollment":{
+        "status":"full-time",
+        "major":"Philosophy",
+        "minor":"Music",
+        "gpa":"3.0"
+      }
+    },
+    {
+      "name": "Saul",
+      "middle-name":"",
+      "last-name":"Hudson",
+      "preferred-name":"Slash",
+      "student-identification":{
+        "number":"8302438"
+      },
+      "contact-information":{
+        "email":"slash@gnr.com",
+        "phone-number":"213.456.8392"
+      },
+      "student-enrollment":{
+        "status":"part-time",
+        "major":"Music",
+        "minor":"Criminal Justice",
+        "gpa":"3.0",
+        "advisor":"Axl Rose",
+        "date":"08-25-1983",
+        "graduation-date":"05-01-1987"
+      }
+    },
+    {
+      "name":"Emily",
+      "middle-name":"",
+      "last-name":"Kokal",
+      "preferred-name":"",
+      "student-identification":{
+        "number":"2983928"
+      },
+      "contact-information":{
+        "email": "emily@warpaint.com",
+        "phone-number": "213.123.7654"
+      },
+      "student-enrollment":{
+        "status":"full-time",
+        "major":"Political Science",
+        "minor":"Law",
+        "gpa":"3.8",
+        "advisor":"Jenny Lee Lindenberg",
+        "year":"third year",
+        "date":"08-25-1998",
+        "graduation-date":"05-01-2002"
+        }
+    },
+    {
+      "name":"Mike",
+        "middle-name":"",
+        "last-name":"Inez",
+        "preferred-name":"",
+        "student-identification":{
+          "number":"7645726"
+        },
+        "contact-information":{
+          "email": "emily@warpaint.com",
+          "phone-number": "213.123.7654"
+        },
+        "student-enrollment":{
+          "status":"full-time",
+          "major":"Business Management",
+          "minor":"Math",
+          "gpa":"4.0",
+          "advisor":"Jerry Cantrell",
+          "year":"second year",
+          "date":"08-25-1984",
+          "graduation-date":"05-01-1998"
+        }
+      }
+    ]
+  }]
+}
