@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type= "text/css" href="../xml/css/style.css"?>
-<!DOCTYPE index SYSTEM "..dtd/student.dtd">
+<!DOCTYPE index SYSTEM "../xml/dtd/student.dtd">
 
 <student-database>
   <student name= "Gordon">
