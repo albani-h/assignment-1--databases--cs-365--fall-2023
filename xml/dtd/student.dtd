@@ -21,6 +21,8 @@ advisor, year, date of enrollment, and graduation date. one of each, except majo
 <!ELEMENT advisor            (#PCDATA)>
 <!ELEMENT phone-number       (#PCDATA)>
 <!ELEMENT email              (#PCDATA)>
+<!ELEMENT year               (#PCDATA)>
+
 
 
 <!--number is an attribute of the student identification element. It is required that it takes character data
