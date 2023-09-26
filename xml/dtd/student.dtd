@@ -5,9 +5,9 @@ the student-database container must contain one more more students.-->
  each contact-information element must have one email and one phone number for the student
  each student identification element can only have one student id number attached to it-->
 <!ELEMENT student(middle-name?,last-name,preferred-name?,student-identification,contact-information,student-enrollment)>
-<!ELEMENT middle-name
-<!ELEMENT last-name
-<!ELEMENT preferred-name
+<!ELEMENT middle-name        (#PCDATA)>
+<!ELEMENT last-name          (#PCDATA)>
+<!ELEMENT preferred-name     (#PCDATA)>
 <!ELEMENT contact-information (email,phone-number)>
 <!ELEMENT student-identification(number)>
 <!--Each student-enrollment element must have the following pieces of information about the student major, minor, gpa
@@ -19,6 +19,9 @@ advisor, year, date of enrollment, and graduation date. one of each, except majo
 <!ELEMENT date               (#PCDATA)>
 <!ELEMENT graduation-date    (#PCDATA)>
 <!ELEMENT advisor            (#PCDATA)>
+<!ELEMENT phone-number       (#PCDATA)>
+<!ELEMENT email              (#PCDATA)>
+
 
 <!--number is an attribute of the student identification element. It is required that it takes character data
 status is an attribute of the student-enrollment element. It is required that the value of that attribute is either full-time, part-time, withdrawn, or graudated-->
